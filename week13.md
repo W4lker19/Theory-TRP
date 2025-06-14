@@ -1,9 +1,9 @@
 # Week 13: Anonymous Authentication
 
 <div align="center">
-
-[⬅️ **Week 12**](week12.md) | [**Main**](README.md) | [**Project 2 Defense** ➡️](project2_defense.md)
-
+  <a href="week12.html">⬅️ <strong>Week 10</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="https://www.youtube.com/watch?v=SC4xMk98Pdc"><strong>Course Completed</strong> ➡️</a>
 </div>
 
 ---
@@ -889,38 +889,9 @@ class PrivateRevocationList:
 
 </details>
 
-<details>
-<summary><b>Question 4:</b> Compare the privacy and security trade-offs between different anonymous credential systems (Idemix, U-Prove, IRMA). (Click to reveal answer)</summary>
-
-**Answer:** 
-
-**Comparison of Anonymous Credential Systems:**
-
-## **IBM Idemix (Identity Mixer)**
-
-**Technical Foundation:**
-- Based on Camenisch-Lysyanskaya (CL) signatures
-- Uses strong RSA assumption
-- Supports unlimited use credentials
-
-**Privacy Properties:**
-```python
-idemix_properties = {
-    'unlinkability': 'Perfect',  # Multiple uses cannot be correlated
-    'selective_disclosure': 'Full',  # Choose any subset of attributes
-    'predicate_proofs': 'Advanced',  # Complex relationships (>, <, ∈)
-    'multi_show': 'Unlimited',  # Same credential used infinitely
-    'revocation': 'Complex_but_private'
-}
-```
-
-**Advantages:**
-- **Strong Privacy:** Perfect unlinkability across uses
-- **Flexible Proofs:** Support complex predicates and range proofs
-- **Unlimited Use:** No token consumption
-- **Mature Technology:** Well-researched and standardized
-
-**Disadvantages:**
-- **Performance:** Slower verification and proof generation
-- **Complexity:** Complex implementation and parameter setup
-- **Key Sizes
+--- 
+<div align="center">
+  <a href="week12.html">⬅️ <strong>Week 10</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="https://www.youtube.com/watch?v=SC4xMk98Pdc"><strong>Course Completed</strong> ➡️</a>
+</div>
