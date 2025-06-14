@@ -1,9 +1,9 @@
 # Week 10: Private Communications I
 
 <div align="center">
-
-[⬅️ **Week 9**](week9.md) | [**Main**](README.md) | [**Week 11** ➡️](week11.md)
-
+  <a href="week8.html">⬅️ <strong>Week 8</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week12.html"><strong>Week 12</strong> ➡️</a>
 </div>
 
 ---
@@ -879,69 +879,8 @@ def anonymity_efficiency_tradeoff(anonymity_set_size):
 
 ---
 
-## 🔬 Lab Exercises
-
-### Exercise 1: Simple Mix Implementation
-
-**Task:** Implement a basic mix that demonstrates batching and shuffling
-
-```python
-import random
-import time
-from collections import deque
-
-class BasicMix:
-    def __init__(self, batch_size=5, delay=10):
-        self.batch_size = batch_size
-        self.delay = delay
-        self.message_queue = deque()
-        self.batch_start_time = None
-        
-    def receive_message(self, sender_id, message, recipient):
-        timestamp = time.time()
-        self.message_queue.append({
-            'sender': sender_id,
-            'message': message,
-            'recipient': recipient,
-            'timestamp': timestamp
-        })
-        
-        if self.batch_start_time is None:
-            self.batch_start_time = timestamp
-            
-        # Check if ready to process batch
-        self.check_batch_ready()
-        
-    def check_batch_ready(self):
-        current_time = time.time()
-        queue_size = len(self.message_queue)
-        time_elapsed = current_time - (self.batch_start_time or current_time)
-        
-        # Process if batch full OR timeout reached
-        if queue_size >= self.batch_size or time_elapsed >= self.delay:
-            self.process_batch()
-            
-    def process_batch(self):
-        if not self.message_queue:
-            return
-            
-        # Create batch from current queue
-        batch = list(self.message_queue)
-        self.message_queue.clear()
-        self.batch_start_time = None
-        
-        # Shuffle the batch
-        random.shuffle(batch)
-        
-        # Forward messages
-        for msg in batch:
-            self.forward_message(msg)
-            
-    def forward_message(self, message):
-        print(f"Forwarding to {message['recipient']}: {message['message']}")
-
-# Test the mix
-mix = BasicMix(batch_size=3, delay=5)
-mix.receive_message("Alice", "Hello Bob", "Bob")
-mix.receive_message("Charlie", "Hi Dana", "Dana")
-mix.receive_message("Eve", "Hey Frank", "Frank
+<div align="center">
+  <a href="week8.html">⬅️ <strong>Week 8</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week12.html"><strong>Week 12</strong> ➡️</a>
+</div>
