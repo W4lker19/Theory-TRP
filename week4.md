@@ -1,9 +1,9 @@
 # Week 4: Privacy-preserving Data Publishing III
 
 <div align="center">
-
-[⬅️ **Week 3**](week3.md) | [**Main**](README.md) | [**Week 5** ➡️](week5.md)
-
+  <a href="week3.html">⬅️ <strong>Week 3</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week5.html"><strong>Week 5</strong> ➡️</a>
 </div>
 
 ---
@@ -382,60 +382,7 @@ After this, the dataset has "exhausted" its privacy budget and no more queries s
 
 </details>
 
----
 
-## 🔬 Lab Exercises
-
-### Exercise 1: Implementing Basic Differential Privacy
-
-**Task:** Implement the Laplace mechanism for different query types
-
-```python
-import numpy as np
-
-def laplace_mechanism(true_value, sensitivity, epsilon):
-    """
-    Add Laplace noise to achieve epsilon-differential privacy
-    """
-    scale = sensitivity / epsilon
-    noise = np.random.laplace(0, scale)
-    return true_value + noise
-
-# Test with different parameters
-true_count = 1000
-for eps in [0.1, 1.0, 10.0]:
-    noisy_result = laplace_mechanism(true_count, 1, eps)
-    print(f"ε={eps}: {true_count} → {noisy_result:.2f}")
-```
-
-**Your Tasks:**
-1. Run the code with different ε values
-2. Observe the noise magnitude changes
-3. Calculate theoretical vs empirical variance
-4. Implement sum and average queries
-
-### Exercise 2: Privacy Budget Management
-
-**Scenario:** You have ε = 2.0 budget for analyzing a customer dataset
-
-**Planned Queries:**
-1. Total number of customers
-2. Average age of customers
-3. Number of customers in each city (10 cities)
-4. Average spending by age group (5 groups)
-
-**Your Task:** Design a budget allocation strategy and justify your choices.
-
-### Exercise 3: Composition Analysis
-
-Calculate the total privacy cost for this sequence:
-1. 5 count queries, each with ε = 0.2
-2. 3 sum queries, each with ε = 0.3
-3. 1 average query with ε = 0.1
-
-What's the remaining budget if you started with ε = 2.0?
-
----
 
 ## 📚 Additional Resources
 
@@ -458,65 +405,11 @@ What's the remaining budget if you started with ε = 2.0?
 - **Apple's Local Differential Privacy:** Used in iOS for telemetry
 - **Google's RAPPOR:** Privacy-preserving analytics
 
----
 
-## 📋 Case Study Discussion Preparation
-
-**Case Study 1: Netflix Prize Dataset Revisited**
-
-**Background:** How would differential privacy have prevented the Narayanan-Shmatikov attack?
-
-**Discussion Points:**
-1. **Traditional Anonymization Failures:**
-   - Removed direct identifiers only
-   - Vulnerable to auxiliary information (IMDb data)
-   - No mathematical privacy guarantees
-
-2. **Differential Privacy Solution:**
-   - Add noise to recommendation algorithms
-   - Limit number of queries per user
-   - Provide formal privacy guarantees
-
-3. **Implementation Challenges:**
-   - Balancing recommendation quality with privacy
-   - Managing privacy budget across time
-   - Handling sparse rating matrices
-
-**Questions for Discussion:**
-- What ε value would you recommend for Netflix data?
-- How would differential privacy affect recommendation accuracy?
-- What are the business implications of formal privacy guarantees?
-
-**Preparation:** Review the original attack paper and consider how different privacy mechanisms would have prevented it.
 
 ---
-
-## 🚀 Project 1 Final Phase
-
-**Final Week Checklist:**
-- [ ] Complete differential privacy implementation
-- [ ] Compare k-anonymity, l-diversity, t-closeness, and differential privacy
-- [ ] Analyze privacy-utility trade-offs across all methods
-- [ ] Prepare comprehensive evaluation metrics
-- [ ] Finalize report with conclusions and recommendations
-- [ ] Practice presentation for next week's defenses
-
-**Report Structure:**
-1. **Introduction:** Dataset description and anonymization goals
-2. **Methods:** Implementation of all four approaches
-3. **Evaluation:** Privacy guarantees and utility metrics
-4. **Comparison:** Trade-offs between different methods
-5. **Conclusion:** Recommendations for practical deployment
-
-**Evaluation Metrics:**
-- **Privacy:** Re-identification risk, inferential disclosure risk
-- **Utility:** Query accuracy, statistical properties preservation
-- **Efficiency:** Computational cost, scalability
-
----
-
 <div align="center">
-
-[⬅️ **Week 3**](week3.md) | [**Main**](README.md) | [**Week 5** ➡️](week5.md)
-
+  <a href="week3.html">⬅️ <strong>Week 3</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week5.html"><strong>Week 5</strong> ➡️</a>
 </div>
