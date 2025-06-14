@@ -1,11 +1,12 @@
 # Week 2: Privacy-preserving Data Publishing I
 
 <div align="center">
-
-[⬅️ **Week 1**](week1.md) | [**Main**](README.md) | [**Week 3** ➡️](week3.md)
-
+   <div align="center">
+  <a href="week1.md">⬅️ <strong>Main</strong></a> |
+  <a href="README.md"><strong>Main</strong></a> |
+  <a href="week2.md"><strong>Week 2</strong> ➡️</a>
 </div>
-
+   
 ---
 
 ## 🎯 Learning Goals
@@ -373,7 +374,8 @@ These limitations led to the development of:
 ---
 
 <div align="center">
-
-[⬅️ **Week 1**](week1.md) | [**Main**](README.md) | [**Week 3** ➡️](week3.md)
-
+   <div align="center">
+  <a href="week1.md">⬅️ <strong>Main</strong></a> |
+  <a href="README.md"><strong>Main</strong></a> |
+  <a href="week2.md"><strong>Week 2</strong> ➡️</a>
 </div>
