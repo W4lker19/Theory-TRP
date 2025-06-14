@@ -1,10 +1,6 @@
 # Week 12: Anonymous Authentication
 
-<div align="center">
 
-[⬅️ **Week 11**](week11.md) | [**Main**](README.md) | [**Project 2 Defense** ➡️](project2_defense.md)
-
-</div>
 
 ---
 
