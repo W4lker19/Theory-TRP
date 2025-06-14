@@ -3,7 +3,7 @@
 <div align="center">
   <a href="week5.html">⬅️ <strong>Week 5</strong></a> |
   <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
-  <a href="week7.html"><strong>Week 7</strong> ➡️</a>
+  <a href="week8.html"><strong>Week 8</strong> ➡️</a>
 </div>
 
 ---
@@ -663,5 +663,5 @@ def private_inference():
 <div align="center">
   <a href="week5.html">⬅️ <strong>Week 5</strong></a> |
   <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
-  <a href="week7.html"><strong>Week 7</strong> ➡️</a>
+  <a href="week8.html"><strong>Week 8</strong> ➡️</a>
 </div>
