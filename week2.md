@@ -2,7 +2,7 @@
 
 <div align="center">
    <div align="center">
-  <a href="week1.md">⬅️ <strong>Main</strong></a> |
+  <a href="week1.md">⬅️ <strong>Week 1</strong></a> |
   <a href="README.md"><strong>Main</strong></a> |
   <a href="week2.md"><strong>Week 2</strong> ➡️</a>
 </div>
