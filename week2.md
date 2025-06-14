@@ -1,10 +1,9 @@
 # Week 2: Privacy-preserving Data Publishing I
 
 <div align="center">
-   <div align="center">
-  <a href="week1.md">⬅️ <strong>Week 1</strong></a> |
-  <a href="README.md"><strong>Main</strong></a> |
-  <a href="week2.md"><strong>Week 2</strong> ➡️</a>
+  <a href="week1.html">⬅️ <strong>Week 1</strong></a> |
+  <a href="README.html"><strong>Main</strong></a> |
+  <a href="week2.html"><strong>Week 2</strong> ➡️</a>
 </div>
    
 ---
@@ -374,8 +373,7 @@ These limitations led to the development of:
 ---
 
 <div align="center">
-   <div align="center">
-  <a href="week1.md">⬅️ <strong>Main</strong></a> |
-  <a href="README.md"><strong>Main</strong></a> |
-  <a href="week2.md"><strong>Week 2</strong> ➡️</a>
+  <a href="week1.html">⬅️ <strong>Week 1</strong></a> |
+  <a href="README.html"><strong>Main</strong></a> |
+  <a href="week2.html"><strong>Week 2</strong> ➡️</a>
 </div>
