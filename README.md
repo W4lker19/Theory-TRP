@@ -11,6 +11,8 @@ A comprehensive study guide for the Privacy Enhancing Technologies course, cover
 4. Secure Multiparty Computation (SMC)
 5. Private Communications
 6. Anonymous Authentication
+
+   
 ---
 
 ## 📅 Weekly Schedule
