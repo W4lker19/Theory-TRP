@@ -1,8 +1,8 @@
 # Week 1: Course Overview & Security/Privacy Concepts
 
 <div align="center">
-  <a href="README.md">⬅️ <strong>Main</strong></a> |
-  <a href="week2.md"><strong>Week 2</strong> ➡️</a>
+  <a href="README.html">⬅️ <strong>Main</strong></a> |
+  <a href="week2.html"><strong>Week 2</strong> ➡️</a>
 </div>
 
 
@@ -246,6 +246,6 @@ Example - Email Communication:
 ---
 
 <div align="center">
-  <a href="README.md">⬅️ <strong>Main</strong></a> |
-  <a href="week2.md"><strong>Week 2</strong> ➡️</a>
+  <a href="README.html">⬅️ <strong>Main</strong></a> |
+  <a href="week2.html"><strong>Week 2</strong> ➡️</a>
 </div>
