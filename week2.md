@@ -3,7 +3,7 @@
 <div align="center">
   <a href="week1.html">⬅️ <strong>Week 1</strong></a> |
   <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
-  <a href="week2.html"><strong>Week 2</strong> ➡️</a>
+  <a href="week3.html"><strong>Week 3</strong> ➡️</a>
 </div>
    
 ---
@@ -375,5 +375,5 @@ These limitations led to the development of:
 <div align="center">
   <a href="week1.html">⬅️ <strong>Week 1</strong></a> |
   <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
-  <a href="week2.html"><strong>Week 2</strong> ➡️</a>
+  <a href="week3.html"><strong>Week 3</strong> ➡️</a>
 </div>
