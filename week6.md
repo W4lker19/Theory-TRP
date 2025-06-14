@@ -1,9 +1,9 @@
 # Week 6: Secure Multiparty Computation (SMC)
 
 <div align="center">
-
-[⬅️ **Week 5**](week5.md) | [**Main**](README.md) | [**Week 7** ➡️](week7.md)
-
+  <a href="week5.html">⬅️ <strong>Week 5</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week7.html"><strong>Week 7</strong> ➡️</a>
 </div>
 
 ---
@@ -636,78 +636,6 @@ def private_inference():
 
 ---
 
-## 🔬 Lab Exercises
-
-### Exercise 1: Implementing Yao's Millionaire Protocol
-
-**Task:** Implement a simple version of Yao's millionaire problem
-
-```python
-def millionaire_problem(alice_wealth, bob_wealth):
-    """
-    Secure comparison of two values
-    Returns: True if alice_wealth > bob_wealth, False otherwise
-    """
-    # Your implementation here
-    pass
-
-# Test cases
-assert millionaire_problem(1000000, 500000) == True
-assert millionaire_problem(750000, 1200000) == False
-```
-
-**Steps:**
-1. Design comparison circuit
-2. Implement garbling procedure
-3. Simulate oblivious transfer
-4. Evaluate garbled circuit
-
-### Exercise 2: Secret Sharing Implementation
-
-**Task:** Implement Shamir's secret sharing scheme
-
-```python
-class SecretSharing:
-    def __init__(self, threshold, num_parties):
-        self.t = threshold
-        self.n = num_parties
-        
-    def share_secret(self, secret):
-        """Generate n shares of secret"""
-        pass
-        
-    def reconstruct_secret(self, shares):
-        """Reconstruct secret from shares"""
-        pass
-
-# Test with threshold 3-out-of-5
-ss = SecretSharing(3, 5)
-shares = ss.share_secret(12345)
-reconstructed = ss.reconstruct_secret(shares[:3])
-assert reconstructed == 12345
-```
-
-### Exercise 3: Private Set Intersection
-
-**Task:** Implement PSI for two small sets
-
-```python
-def private_set_intersection(set_a, set_b):
-    """
-    Find intersection without revealing non-intersecting elements
-    """
-    # Use SMC techniques
-    pass
-
-# Example
-company_a_customers = {"alice", "bob", "charlie"}
-company_b_customers = {"bob", "charlie", "david"}
-intersection = private_set_intersection(company_a_customers, company_b_customers)
-# Should return {"bob", "charlie"}
-```
-
----
-
 ## 📚 Additional Resources
 
 ### Foundational Papers
@@ -732,26 +660,8 @@ intersection = private_set_intersection(company_a_customers, company_b_customers
 
 ---
 
-## 🚀 Project 1 Defense Preparation
-
-**Defense Week - Key Points:**
-- Demonstrate understanding of all anonymization methods
-- Compare privacy-utility trade-offs clearly
-- Show practical implementation results
-- Discuss real-world deployment considerations
-- Address questions about limitations and future work
-
-**Common Questions:**
-1. Which method would you recommend for your dataset and why?
-2. How do your results compare to theoretical expectations?
-3. What are the computational costs of different approaches?
-4. How would you handle larger datasets?
-5. What privacy guarantees can you provide?
-
----
-
 <div align="center">
-
-[⬅️ **Week 5**](week5.md) | [**Main**](README.md) | [**Week 7** ➡️](week7.md)
-
+  <a href="week5.html">⬅️ <strong>Week 5</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week7.html"><strong>Week 7</strong> ➡️</a>
 </div>
