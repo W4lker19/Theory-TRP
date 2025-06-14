@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="week2.html">⬅️ <strong>Week 2</strong></a> |
-  <a href="README.html"><strong>Main</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
   <a href="week4.html"><strong>Week 4</strong> ➡️</a>
 </div>
 
@@ -367,6 +367,6 @@ Note: Distances between diseases are typically: adjacent=1, non-adjacent=2 (or b
 
 <div align="center">
   <a href="week2.html">⬅️ <strong>Week 2</strong></a> |
-  <a href="README.html"><strong>Main</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
   <a href="week4.html"><strong>Week 4</strong> ➡️</a>
 </div>
