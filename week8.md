@@ -1,9 +1,9 @@
 # Week 8: SMC Application to Private Data Mining
 
 <div align="center">
-
-[⬅️ **Week 7**](week7.md) | [**Main**](README.md) | [**Week 9** ➡️](week9.md)
-
+  <a href="week6.html">⬅️ <strong>Week 6</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week10.html"><strong>Week 10</strong> ➡️</a>
 </div>
 
 ---
