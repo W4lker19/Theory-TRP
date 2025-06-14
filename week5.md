@@ -1,9 +1,9 @@
 # Week 5: Location Privacy
 
 <div align="center">
-
-[⬅️ **Week 4**](week4.md) | [**Main**](README.md) | [**Week 6** ➡️](week6.md)
-
+  <a href="week4.html">⬅️ <strong>Week 4</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week6.html"><strong>Week 6</strong> ➡️</a>
 </div>
 
 ---
@@ -547,30 +547,6 @@ For social check-ins: Higher weight on inference resistance (high δ), relaxed s
 
 ---
 
-## 🔬 Lab Assignment Preview
-
-### Exploring Location Privacy in Practice
-
-**Part I: Location Guard Browser Extension**
-- Install and configure Location Guard
-- Test different privacy levels with web services
-- Analyze impact on service functionality
-- Measure privacy protection effectiveness
-
-**Part II: Location Privacy Labware**
-- Implement basic LPPMs (noise addition, cloaking)
-- Evaluate privacy-utility trade-offs
-- Compare different obfuscation strategies
-- Analyze real-world location datasets
-
-**Objectives:**
-1. Understand practical challenges in location privacy
-2. Experience trade-offs between privacy and utility
-3. Implement and evaluate protection mechanisms
-4. Analyze effectiveness against different attack models
-
----
-
 ## 📚 Additional Resources
 
 ### Foundational Papers
@@ -593,18 +569,8 @@ For social check-ins: Higher weight on inference resistance (high δ), relaxed s
 
 ---
 
-## 🚀 Next Week Preparation
-
-**Secure Multiparty Computation Preview:**
-- Review basic cryptographic concepts
-- Understand the millionaire's problem
-- Consider privacy in distributed computation
-- Think about applications beyond location data
-
----
-
 <div align="center">
-
-[⬅️ **Week 4**](week4.md) | [**Main**](README.md) | [**Week 6** ➡️](week6.md)
-
+  <a href="week4.html">⬅️ <strong>Week 4</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week6.html"><strong>Week 6</strong> ➡️</a>
 </div>
