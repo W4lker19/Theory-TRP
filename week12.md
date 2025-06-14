@@ -1,9 +1,9 @@
 # Week 12: Private Communications II
 
 <div align="center">
-
-[⬅️ **Week 11**](week11.md) | [**Main**](README.md) | [**Week 13** ➡️](week13.md)
-
+  <a href="week10.html">⬅️ <strong>Week 10</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week13.html"><strong>Week 13</strong> ➡️</a>
 </div>
 
 ---
@@ -764,132 +764,8 @@ Advanced systems prevent adversaries from building social graphs, tracking commu
 
 </details>
 
-<details>
-<summary><b>Question 2:</b> Explain how pluggable transports work to circumvent censorship. Compare different approaches like obfs4, meek, and Snowflake. (Click to reveal answer)</summary>
-
-**Answer:** 
-
-**Pluggable Transports Concept:**
-Modular protocols that make Tor traffic look like other types of network activity, defeating Deep Packet Inspection (DPI) and protocol-based blocking.
-
-**How They Work:**
-1. **Traffic Obfuscation:** Transform Tor packets to mimic other protocols
-2. **Protocol Mimicry:** Imitate legitimate services (HTTP, TLS, WebRTC)
-3. **Infrastructure Reuse:** Leverage existing, hard-to-block services
-
-## **obfs4 (Obfuscation Protocol 4)**
-
-**Approach:** Make traffic look completely random and unidentifiable
-
-**Technical Details:**
-```python
-class Obfs4Transport:
-    def obfuscate_handshake(self, tor_handshake):
-        # Step 1: Generate random-looking padding
-        padding = self.generate_random_padding()
-        
-        # Step 2: Encrypt real handshake
-        encrypted_handshake = self.encrypt(tor_handshake, self.session_key)
-        
-        # Step 3: Embed in random data stream
-        obfuscated_stream = padding + encrypted_handshake + padding
-        
-        return obfuscated_stream
-        
-    def ongoing_obfuscation(self, tor_data):
-        # All subsequent traffic appears random
-        return self.stream_cipher(tor_data, self.evolving_key)
-```
-
-**Strengths:**
-- Traffic appears completely random
-- No identifiable protocol signatures
-- Resistant to statistical analysis
-
-**Weaknesses:**
-- Random traffic itself can be suspicious
-- Requires distribution of bridge addresses
-- Vulnerable to active probing attacks
-
-## **Meek (HTTP Domain Fronting)**
-
-**Approach:** Hide Tor traffic behind legitimate CDN requests
-
-**Technical Details:**
-```python
-class MeekTransport:
-    def __init__(self, front_domain="ajax.googleapis.com", real_bridge="bridge.torproject.org"):
-        self.front_domain = front_domain  # CDN edge server
-        self.real_bridge = real_bridge    # Actual Tor bridge
-        
-    def send_tor_data(self, data):
-        # HTTP request appears to go to Google
-        http_request = {
-            'method': 'POST',
-            'url': f'https://{self.front_domain}/reflect',
-            'headers': {
-                'Host': self.front_domain,
-                'X-Forwarded-For': self.real_bridge  # Hidden routing info
-            },
-            'body': self.encode_tor_data(data)
-        }
-        
-        # CDN infrastructure routes to real bridge
-        return self.send_http_request(http_request)
-```
-
-**Strengths:**
-- Traffic looks exactly like HTTPS to major services
-- Very hard to block without collateral damage
-- Uses existing CDN infrastructure
-
-**Weaknesses:**
-- High bandwidth costs
-- Relies on CDN cooperation
-- Vulnerable to domain fronting countermeasures
-
-## **Snowflake (WebRTC Proxying)**
-
-**Approach:** Use volunteer browsers as temporary proxies via WebRTC
-
-**Technical Details:**
-```python
-class SnowflakeProxy:
-    def __init__(self):
-        self.webrtc_connection = None
-        self.broker_domain = "snowflake-broker.torproject.net"
-        
-    def become_proxy(self):
-        # Step 1: Register with broker through domain fronting
-        self.register_with_broker()
-        
-        # Step 2: Wait for client connection requests
-        client_offer = self.receive_client_offer()
-        
-        # Step 3: Establish WebRTC connection
-        self.webrtc_connection = self.create_webrtc_connection(client_offer)
-        
-        # Step 4: Proxy traffic to Tor bridge
-        self.proxy_to_tor_bridge()
-        
-    def proxy_to_tor_bridge(self):
-        # All traffic appears as WebRTC between browsers
-        while self.webrtc_connection.active:
-            # Receive from Tor client
-            client_data = self.webrtc_connection.receive()
-            
-            # Forward to Tor bridge
-            bridge_response = self.forward_to_bridge(client_data)
-            
-            # Send response back to client
-            self.webrtc_connection.send(bridge_response)
-```
-
-**Strengths:**
-- Massive pool of potential proxies (any browser)
-- Traffic looks like legitimate WebRTC (video calls, gaming)
-- Constantly changing proxy pool
-- No need to distribute bridge addresses
-
-**Weaknesses:**
-- Dependent on volunteer participation
+<div align="center">
+  <a href="week10.html">⬅️ <strong>Week 10</strong></a> |
+  <a href="https://w4lker19.github.io/Theory-TRP"><strong>Main</strong></a> |
+  <a href="week13.html"><strong>Week 13</strong> ➡️</a>
+</div>
