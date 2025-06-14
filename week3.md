@@ -363,6 +363,8 @@ Note: Distances between diseases are typically: adjacent=1, non-adjacent=2 (or b
 - **ARX:** Comprehensive anonymization tool with l-diversity and t-closeness support
 - **UTD Anonymization Toolbox:** Research-oriented implementation
 - **sdcMicro (R package):** Statistical disclosure control toolkit
+
+
 ---
 
 <div align="center">
