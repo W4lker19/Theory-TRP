@@ -32,17 +32,19 @@ Navigate through the weeks using the buttons below:
 |
 <a href="week6.html"><strong>Week 6</strong></a>
 |
-<a href="week7.html"><strong>Week 7</strong></a>
+<a href="https://www.youtube.com/embed/dQw4w9WgXcQ"><strong>DEFENSE</strong></a>
 |
 <a href="week8.html"><strong>Week 8</strong></a>
 |
-<a href="week9.html"><strong>Week 9</strong></a>
+<a href="https://www.youtube.com/watch?v=nXGmZZxSNtA"><strong>EASTER</strong></a>
 |
 <a href="week10.html"><strong>Week 10</strong></a>
 |
-<a href="week11.html"><strong>Week 11</strong></a>
+<a href="https://www.youtube.com/watch?v=xGMEfIfosSI"><strong>QUEIMA</strong></a>
 |
 <a href="week12.html"><strong>Week 12</strong></a>
+|
+<a href="week13.html"><strong>Week 13</strong></a>
 </div>
 
 ---
